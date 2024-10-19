@@ -21,7 +21,7 @@ namespace Tyuiu.NazarenkoVV.Sprint1.Task1.V22
             Console.WriteLine("* Тема: Организация ввода и вывода в консольных приложениях                      *");
             Console.WriteLine("* Задание #1                                                                     *");
             Console.WriteLine("* Вариант #22                                                                    *");
-            Console.WriteLine("* Выполнила: Платонова.П.Е | ИСПб-24-1                                           *");
+            Console.WriteLine("* Выполнила: Назаренко В.В. | ИСПб-24-1                                           *");
             Console.WriteLine("**********************************************************************************");
             Console.WriteLine("* УСЛОВИЕ:                                                                       *");
             Console.WriteLine("*Написать программу, которая запрашивает у пользователя исходные данные,         *");
