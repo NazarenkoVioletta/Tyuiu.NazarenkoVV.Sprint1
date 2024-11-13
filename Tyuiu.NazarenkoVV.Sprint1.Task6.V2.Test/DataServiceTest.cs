@@ -7,11 +7,11 @@ namespace Tyuiu.NazarenkoVV.Sprint1.Task6.V2.Test
     {
         public void ValidString()
         {
-            string str = "не знаю какой текст должен быть Hello";
+            string str = "hello Vita";
             DataService ds = new DataService();
-            string res = ds.CheckHello(str);
-            string wait = "true";
-            Assert.AreEqual(res, wait);
+            bool res = ds.CheckHello(str);
+            bool wait = true;
+            Assert.AreEqual(wait, res);
         }
     }
 }
