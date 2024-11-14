@@ -13,7 +13,8 @@ namespace Tyuiu.NazarenkoVV.Sprint1.Task3.V9.Test
             DataService ds = new DataService();
             int minutes = 150;
             var res = ds.ConvertMinutesToHours(minutes);
-            Assert.AreEqual(2.333, res);
+            Assert.AreEqual(2.30, res);
+            
         }
     }
 }

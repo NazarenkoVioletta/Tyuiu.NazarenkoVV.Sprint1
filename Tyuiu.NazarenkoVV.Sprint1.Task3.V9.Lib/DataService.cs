@@ -14,7 +14,7 @@ namespace Tyuiu.NazarenkoVV.Sprint1.Task3.V9.Lib
     {
         public double ConvertMinutesToHours(int minutes)
         {
-            return Math.Floor(TimeSpan.FromMinutes(minutes).TotalHours);
+            return Math.Round(TimeSpan.FromMinutes(minutes).TotalHours,3);
         }
     }
 }
